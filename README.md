@@ -67,9 +67,7 @@ npm run delete:monitor -- <monitor_id?>
 Uses `.monitor.json` if id not provided.
 
 ## Deployment (Mac mini)
-- Keep Messages signed in.
-- Run server persistently (pm2 or launchd) and keep tunnel alive (ngrok/Cloudflare tunnel, etc.).
-- Update `WEBHOOK_URL` to the public https URL from your tunnel, then re-run `npm run setup:monitor` so Parallel targets the new webhook.
+See `MAC_MINI_SETUP.md` for a full step-by-step guide (pm2 + tunnel + monitor registration).
 
 See `AGENTS.md` for architecture and ops notes.
 
