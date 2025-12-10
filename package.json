@@ -1,0 +1,32 @@
+{
+  "name": "ai-news-monitor",
+  "version": "1.0.0",
+  "description": "Parallel Monitor webhook → iMessage daily AI news reports",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "setup:monitor": "ts-node scripts/setupMonitor.ts",
+    "delete:monitor": "ts-node scripts/deleteMonitor.ts",
+    "fetch:events": "ts-node scripts/fetchEvents.ts",
+    "lint": "echo \"No linter configured\"",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
