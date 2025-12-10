@@ -49,3 +49,6 @@ flowchart TD
 - `.monitor.json` and `.env` are git-ignored; ensure they are not committed.
 - Dry-run mode prevents accidental sends during testing.
 
+## References
+- Parallel Monitor Quickstart: https://docs.parallel.ai/monitor-api/monitor-quickstart
+

@@ -8,6 +8,8 @@ Daily AI news monitor built on Parallel Monitor API. It receives webhook event g
 - Parallel API key.
 - (Optional) Tunnel for webhook (ngrok or similar) when not running on a public host.
 
+Reference: Parallel Monitor Quickstart — https://docs.parallel.ai/monitor-api/monitor-quickstart
+
 ## Setup
 1) Clone and install:
 ```bash

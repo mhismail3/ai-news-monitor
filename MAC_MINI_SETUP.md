@@ -87,3 +87,6 @@ Real webhooks from Parallel will now fetch event groups and send the report via 
 - Use `DRY_RUN=true` when experimenting.
 - Ensure the tunnel stays alive; reserved domains or always-on tunnels are best for reliability.
 
+## References
+- Parallel Monitor Quickstart: https://docs.parallel.ai/monitor-api/monitor-quickstart
+
